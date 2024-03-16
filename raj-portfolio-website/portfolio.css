@@ -1,0 +1,132 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* footer ni desiggn aaya thi nakhvani chalu thai chhe pachi joi leje kai badalvu hoy toh */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* contacts wadi link */
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+/* hr maate */
+.footer-contact hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+}
+
+/* linkedin maate */
+.footer-contact a.linkedin {
+    color: #0077B5;
+    /* LinkedIn blue */
+    font-weight: bold;
+}
+
+/* photo vada part maate css aaya thi nakhu chhu */
+.photos-taken,
+.images-generated {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photos-taken h3,
+.images-generated h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.photos-taken img,
+.images-generated img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    /* image maate border */
+}
+
+/* Grid Layout ni styles */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* columns ni width */
+    gap: 10px;
+    /*photo vacche ni gaps */
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
