@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(155, 155, 225);
+}
+
+.parentDiv {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: row;
+  padding: 50px;
+  width: 75vw;
+  height: 80vh;
+}
+
+.left {
+  width: 50%;
+  background-color: rgb(29, 29, 111);
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#infoline {
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.box {
+  padding: 5px;
+  margin: 3px;
+}
+
+#bt {
+  margin: 5px;
+  color: white;
+  background: blue;
+  padding: 5px;
+  font-size: larger;
+}
