@@ -1,0 +1,76 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: rgb(244, 227, 231);
+  height: 80%;
+  margin: 25px;
+}
+
+.info {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.info h1 {
+  color: red;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  min-width: 80%;
+}
+
+.email,
+.phone {
+  border: 1px solid black;
+  min-width: 50%;
+  padding: 10px;
+}
+
+.email h1,
+.phone h1 {
+  font-size: large;
+}
+
+.booking {
+  width: 30%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  margin: 20px;
+}
+
+#theform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#name,
+#email,
+#person,
+#date {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 80%;
+}
+
+#booknow {
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 15%;
+}
