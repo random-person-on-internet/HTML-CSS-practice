@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info {
+  height: 15%;
+  background: rgb(214, 217, 244);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.locationAndTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.loc,
+.time {
+  margin: 10px;
+}
+
+.menu {
+  height: 15%;
+  background: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.klinik h1 {
+  color: rgb(35, 35, 122);
+}
+
+.otherOptions a {
+  text-decoration: none;
+  color: gray;
+  margin: 3px;
+}
+
+.otherOptions button {
+  background: rgb(64, 64, 155);
+  color: white;
+  padding: 5px;
+  margin: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainbody {
+  height: 70%;
+  background: rgb(96, 96, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+}
+
+.left h2 {
+  padding: 5px;
+}
+
+.numbers {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.docnum,
+.patientnum,
+.staffnum {
+  border-left: 1px solid white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+}
